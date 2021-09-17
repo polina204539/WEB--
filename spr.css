@@ -1,0 +1,54 @@
+h1 {
+    color: green;
+    font-size: 400%;
+    /* Задание 9 */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.header1 {
+    color:chartreuse;
+    font-size: 150%;
+}
+.header2 {
+    color: darkolivegreen;
+    font-size: 150%;
+}
+.header3 {
+    color:darkorange;
+    font-size: 150%;
+}
+.header4 {
+    color:darkred;
+    font-size: 150%;
+}
+.header5 {
+    color:darkturquoise;
+    font-size: 150%;
+}
+.header6 {
+    color:dodgerblue;
+    font-size: 150%;
+}
+.header7 {
+    color:gold;
+    font-size: 150%;
+}
+.header8 {
+    color:hotpink;
+    font-size: 150%;
+}
+.header9 {
+    color:indigo;
+    font-size: 150%;
+}
+.header10 {
+    color:lawngreen;
+    font-size: 150%;
+}
+h5, h6{
+    display: inline;
+    padding: 0,5px; 
+}
+
+
+
