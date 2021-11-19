@@ -1,0 +1,95 @@
+.hd1{
+    font-size: 65px;
+    font-family: Times;
+}
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5%
+}
+.Navbar .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.Navbar .col-sm{
+    text-align: center;
+    border: 2px solid rgb(172, 183, 197);
+    border-radius: 4%;
+    background-color: rgb(221, 242, 250);
+    width: 20%;
+    margin-left: 10px;
+}
+.block {
+    display: block;
+    margin-left: 40px; /* Отступ слева в пикселах */
+    margin-right: 40px; /* Отступ справа в пикселах */
+    margin-bottom: 40px;
+    background-color: rgb(221, 242, 250);
+    border: 2px rgb(221, 242, 250);
+    border-radius: 10%;
+    padding: 5%;
+}
+.block .inpform{
+    display: flex;
+    flex-direction: column;
+}
+.inpform .data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    font-size: 17px;
+}
+.data p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Times;
+}
+.data #carousel{
+    padding: 5%;
+}
+#carousel .pic{
+    width: 350px;
+    height: 300px;
+}
+
+.data p1{
+    text-align: right;
+    font-family: Times;
+    padding: 10px;
+    width: 200px;
+}
+.data .window{
+    width: 350px;
+}
+.data .choose{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.choose p2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Times;
+    font-size: 15px;
+}
+.choose input{
+    margin-right: 10px;
+}
+.data .button {
+    background-color: rgb(159, 216, 243);
+    border-radius: 4%;
+    border-color: rgb(111, 194, 233);
+    text-align: center;
+    font-family: Times;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+}
